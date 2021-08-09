@@ -156,7 +156,7 @@ html {
 }
 
 
-/* End of the border-box model */
+/* End of the border-box model setting */
 
 h1,
 h2,
@@ -225,4 +225,30 @@ header {
 
 #text-release p {
     text-transform: uppercase;
+}
+
+#middle-top {
+    margin-left: 24px;
+    margin-top: 64px;
+}
+
+#picture-middle-top {
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+#middle-bottom {
+    margin-top: 24px;
+    margin-right: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#picture-middle-bottom1 {
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+#picture-middle-bottom2 {
+    border-radius: 10%;
 }
