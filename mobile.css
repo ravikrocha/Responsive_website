@@ -158,6 +158,9 @@ html {
 
 /* End of the border-box model setting */
 
+
+/* For mobile */
+
 h1,
 h2,
 h3 {
@@ -230,12 +233,19 @@ header {
     text-transform: uppercase;
 }
 
-#middle-top {
+#keyboard-top {
     margin-left: 24px;
     margin-top: 64px;
 }
 
-#picture-middle-top {
+#button2-pic {
+    width: 150px;
+    height: 48px;
+}
+
+#picture-keyboard-top {
+    width: 372px;
+    height: 331px;
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
 }
@@ -249,11 +259,15 @@ header {
 }
 
 #picture-middle-bottom1 {
+    width: 119px;
+    height: 193px;
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
 }
 
 #picture-middle-bottom2 {
+    width: 200px;
+    height: 193px;
     border-radius: 10%;
 }
 
@@ -285,4 +299,78 @@ footer {
 
 footer span {
     font-weight: 700;
+}
+
+
+/* For tablets */
+
+@media only screen and (min-width: 770px) {
+    body {
+        width: 770px;
+    }
+    header {
+        margin: 49px 40px;
+    }
+    #top {
+        margin: 62px 40px;
+    }
+    #top-title {
+        margin: 0;
+        grid-area: top-title;
+    }
+    #keyboard-top {
+        margin: 0;
+        grid-area: keyboard-top;
+    }
+    #text-improve {
+        margin: 0;
+        grid-area: text-improve;
+    }
+    #preorder {
+        grid-area: preorder;
+    }
+    #picture-keyboard-top {
+        width: 478px;
+        height: 425px;
+    }
+    #top {
+        display: grid;
+        margin: 62px 40px;
+        grid-template-columns: 340px 68px 320px;
+        grid-template-rows: 60px 116px 34px 78px 39px 58px 60px;
+        grid-template-areas: ". . keyboard-top" "top-title . keyboard-top" ". . keyboard-top" "text-improve . keyboard-top" ". . keyboard-top" "preorder . keyboard-top" ". . keyboard-top";
+    }
+    #bottom {
+        margin: 0;
+    }
+    #picture-middle-bottom1 {
+        width: 214px;
+        height: 320px;
+        border-radius: 5%;
+    }
+    #picture-middle-bottom2 {
+        width: 445px;
+        height: 320px;
+        border-radius: 5%;
+    }
+    #middle-bottom {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #bottom-intro {
+        margin: 72px 40px;
+        display: flex;
+    }
+    #bottom-intro p,
+    h2 {
+        text-align: left;
+    }
+    #bottom-intro-title h2 {
+        margin-bottom: 0;
+    }
+    #bottom-intro-paragraph {
+        align-self: center;
+        padding-left: 60px;
+        margin-left: 36px;
+    }
 }
