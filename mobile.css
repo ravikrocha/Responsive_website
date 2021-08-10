@@ -314,6 +314,10 @@ footer span {
     #top {
         margin: 62px 40px;
     }
+    #button2-pic {
+        width: 175px;
+        height: 58px;
+    }
     #top-title {
         margin: 0;
         grid-area: top-title;
