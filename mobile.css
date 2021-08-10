@@ -373,4 +373,42 @@ footer span {
         padding-left: 60px;
         margin-left: 36px;
     }
+    #feature-comp {
+        grid-area: feature-comp;
+    }
+    #feature-wire {
+        grid-area: feature-wire;
+    }
+    #feature-cap {
+        grid-area: feature-cap;
+    }
+    #feature-rgb {
+        grid-area: feature-rgb;
+    }
+    #bottom-features {
+        margin: 142px 98px 142px 40px;
+        display: grid;
+        grid-template-columns: 339px;
+        grid-template-rows: auto;
+        grid-template-areas: "feature-comp feature-wire" "feature-cap feature-rgb";
+    }
+    #bottom-features p,
+    h3 {
+        text-align: left;
+    }
+    #feature-comp p {
+        margin-right: 60px;
+    }
+    #feature-wire p {
+        margin-right: 10px;
+    }
+    #feature-cap {
+        margin-right: 60px;
+    }
+    #feature-rgb {
+        margin-right: 10px;
+    }
+    .logo-feature {
+        margin: 0;
+    }
 }
