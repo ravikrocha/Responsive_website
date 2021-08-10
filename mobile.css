@@ -309,7 +309,7 @@ footer span {
         width: 770px;
     }
     header {
-        margin: 49px 40px;
+        margin: 40px 40px;
     }
     #top {
         margin: 62px 40px;
@@ -386,7 +386,7 @@ footer span {
         grid-area: feature-rgb;
     }
     #bottom-features {
-        margin: 142px 98px 142px 40px;
+        margin: 70px 98px 142px 40px;
         display: grid;
         grid-template-columns: 339px;
         grid-template-rows: auto;
