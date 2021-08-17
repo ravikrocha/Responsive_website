@@ -471,7 +471,6 @@
                     display: flex;
                     justify-content: space-between;
                 }
-                #bottom {}
                 .features {
                     width: 255px;
                     height: 323px;
@@ -483,5 +482,8 @@
                     margin: 70px 165px 142px 158px;
                     display: flex;
                     justify-content: space-between;
+                }
+                #feature-cap {
+                    margin-right: 0px;
                 }
             }
