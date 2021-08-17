@@ -471,4 +471,17 @@
                     display: flex;
                     justify-content: space-between;
                 }
+                #bottom {}
+                .features {
+                    width: 255px;
+                    height: 323px;
+                }
+                #feature-comp p {
+                    margin: 0;
+                }
+                #bottom-features {
+                    margin: 70px 98px 142px 158px;
+                    display: flex;
+                    justify-content: space-between;
+                }
             }
