@@ -152,6 +152,9 @@
                 #square-top {
                     display: none;
                 }
+                #text-middle {
+                    display: none;
+                }
             }
             /* For mobile */
             
