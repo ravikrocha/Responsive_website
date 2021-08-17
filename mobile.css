@@ -417,7 +417,6 @@
                     height: 480px;
                 }
                 #top-title {
-                    margin: 0;
                     grid-area: top-title;
                 }
                 #keyboard-top {
@@ -438,8 +437,8 @@
                 }
                 #top {
                     display: grid;
-                    margin: 62px 308px;
-                    grid-template-columns: 340px 68px 540px 30px 255px;
+                    margin: 62px 164px;
+                    grid-template-columns: 391px 158px 540px 30px 255px;
                     grid-template-rows: 60px 116px 34px 78px 39px 58px 60px;
                     grid-template-areas: ". . keyboard-top . square-top" "top-title . keyboard-top . ." ". . keyboard-top . ." "text-improve . keyboard-top . ." ". . keyboard-top . ." "preorder . keyboard-top . ." ". . keyboard-top . .";
                 }
