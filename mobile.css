@@ -442,6 +442,9 @@
                     grid-template-rows: 60px 116px 34px 78px 39px 58px 60px;
                     grid-template-areas: ". . keyboard-top . square-top" "top-title . keyboard-top . ." ". . keyboard-top . ." "text-improve . keyboard-top . ." ". . keyboard-top . ." "preorder . keyboard-top . ." ". . keyboard-top . .";
                 }
+                #bottom-intro {
+                    display: none;
+                }
                 #picture-middle-bottom1 {
                     width: 245px;
                     height: 480px;
