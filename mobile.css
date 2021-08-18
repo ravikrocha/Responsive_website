@@ -249,7 +249,7 @@
                 border-radius: 5%;
             }
             
-            #middle-bottom {
+            #middle {
                 margin-top: 24px;
                 margin-right: 24px;
                 margin-bottom: 75px;
@@ -350,7 +350,7 @@
                     height: 320px;
                     border-radius: 5%;
                 }
-                #middle-bottom {
+                #middle {
                     margin-left: 40px;
                     margin-right: 40px;
                 }
@@ -466,7 +466,7 @@
                     margin-right: 20px;
                     align-self: center;
                 }
-                #middle-bottom {
+                #middle {
                     margin-top: 24px;
                     margin-right: 164px;
                     margin-left: -109px;
