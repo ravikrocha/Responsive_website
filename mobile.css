@@ -152,6 +152,9 @@
                 #square-top {
                     display: none;
                 }
+                #square-middle {
+                    display: none;
+                }
                 #text-middle {
                     display: none;
                 }
@@ -466,7 +469,7 @@
                 #middle-bottom {
                     margin-top: 24px;
                     margin-right: 164px;
-                    margin-left: 164px;
+                    margin-left: -109px;
                     margin-bottom: 75px;
                     display: flex;
                     justify-content: space-between;
