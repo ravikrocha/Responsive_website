@@ -474,6 +474,9 @@
                     display: flex;
                     justify-content: space-between;
                 }
+                #square-middle {
+                    align-self: end;
+                }
                 .features {
                     width: 255px;
                     height: 323px;
